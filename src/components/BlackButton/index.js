@@ -1,8 +1,8 @@
 import './BlackButton.css'
 
-const BlackButton = () => {
+const BlackButton = (props) => {
     return(
-        <a href=''className='contact'>Contact</a>
+        <a href=''className='contact'>{props.text}</a>
     )
 }
 

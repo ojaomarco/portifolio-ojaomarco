@@ -1,0 +1,49 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-header {
+    padding: 10px 0px;
+}
+
+.content-header h1 {
+    color: var(--Chinese-Black, #111);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.content-separator {
+    background-color: #111;
+    width: 263.008px;
+    height: 1px;
+    margin-bottom: 25px;
+}
+
+.content-text {
+    display: flex;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-text p {
+    color: var(--Chinese-Black, #111);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-buttons {
+    display: flex;
+    width: 465px;
+    justify-content: center;
+    align-items: center;
+    gap: 61px;
+
+}

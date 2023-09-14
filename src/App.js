@@ -1,12 +1,16 @@
+import { Container } from "@mui/material";
 import Header from "./components/Header";
-import Container from '@mui/material/Container';
+import Hero from "./components/Hero";
 
 
 function App() {
   return (<>
-     
-      <Container maxWidth="sm"> <Header/></Container>
-    </>
+   
+    <Container maxWidth='xl'>
+      <Header />
+      <Hero/>
+    </Container>
+  </>
   );
 }
 

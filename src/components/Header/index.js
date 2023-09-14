@@ -4,12 +4,12 @@ import './Header.css'
 const Header = () => {
     return(
         <div className='header'>
-            <h1>João Marcos</h1>
+            <h1>JOÃO MARCOS</h1>
             <div className='frame'>
                 <a href='#' className='link'>Home</a>
                 <a href='#'className='link'>Sobre</a>
                 <a href='#'className='link'>Projetos</a>
-                <BlackButton />
+                <BlackButton text={'Contato'}/>
             </div>
         </div>
     )
