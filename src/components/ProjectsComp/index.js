@@ -17,10 +17,11 @@ const ProjectComp = () => {
                     src={'/arch.png'}
                 />
                 <ProjectCard
-                    title={'Projeto 2'}
-                    desc={'teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste '}
+                    title={'WebService SpringBoot'}
+                    desc={'Foi desenvolvida uma Web API REST para gerenciar o ciclo de vida de informações de boletins de ocorrência policial. O projeto foi implementado em Java com o uso do framework Spring Boot.'}
                     gitLink={''}
                     link={''}
+                    src={'/api.png'}
                 />
                 <ProjectCard
                     title={'Projeto 2'}
