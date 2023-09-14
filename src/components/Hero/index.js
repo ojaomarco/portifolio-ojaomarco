@@ -11,9 +11,9 @@ const Hero = () => {
             </div>
             <div className='content-text'>
                 <p>
-                    Material UI and Base UI feature many of the same UI components, but Base UI comes without any default styles or styling solutions.
-                    Material UI is comprehensive in that it comes packaged with default styles, and is optimized to work with Emotion (or styled-components).
-                    Base UI, by contrast, could be considered the "skeletal" or "headless" counterpart to Material UI—in fact, future versions of Material UI will use Base UI components and hooks for its foundational structure.
+                    teste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste teste
+                    teste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste teste
+                    teste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste teste
                 </p>
             </div>
             <div className='content-buttons'>
