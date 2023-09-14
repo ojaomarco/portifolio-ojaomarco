@@ -1,0 +1,13 @@
+.contact-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-item{
+    padding: 10px 32px;
+}
+
+.contact-sec{
+    margin-bottom: 32px;
+}

@@ -1,6 +1,5 @@
 import { Link } from '@mui/material';
 import './ProjectCard.css'
-import logo from './pepsi.png'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkIcon from '@mui/icons-material/Link';
 
@@ -8,7 +7,7 @@ const ProjectCard = (props) => {
     return (
         <div className='card'>
             <div className='card-image'>
-                <img src={logo} alt="Logo" />
+                <img src={props.src} alt="img"/>
             </div>
 
             <div className='card-title'>
@@ -23,9 +22,9 @@ const ProjectCard = (props) => {
 
             <div className='card-links'>
                 <Link href={props.gitLink} color={'#000'}  target="_blank" >
-                    <GitHubIcon fontSize='large' />
+                    <GitHubIcon fontSize='large'/>
                 </Link>
-                <Link href={props.gitLink} color={'#000'}  target="_blank" >
+                <Link href={props.link} color={'#000'}  target="_blank" >
                     <LinkIcon fontSize='large' />
                 </Link>
             </div>

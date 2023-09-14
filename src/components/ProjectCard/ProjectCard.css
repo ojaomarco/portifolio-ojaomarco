@@ -3,6 +3,7 @@
     background: #9E9E9E;
     max-width: 100%;
 }
+.card .card-image img{max-width: 100%;}
 
 .card {
     max-width: 100%;
@@ -20,7 +21,7 @@
 }
 
 .card-desc {
-    text-align: center;
+    text-align: justify;
     padding: 10px 0px;
     gap: 10px;
     max-width: 100%;
@@ -28,7 +29,7 @@
 
 .card-desc p {
     height: auto;
-    width: 400px;
+    width: 380px;
     margin-left: auto;
     margin-right: auto;
     display: block;

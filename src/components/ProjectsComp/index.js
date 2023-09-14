@@ -10,10 +10,11 @@ const ProjectComp = () => {
             </section>
             <section className='cards'>
                 <ProjectCard
-                    title={'Projeto 1'}
-                    desc={'teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste '}
-                    gitLink={''}
-                    link={''}
+                    title={'Projeto com AMQP'}
+                    desc={'A aplicação foi desenvolvida como um sistema distribuído com um Produtor e um Consumidor. O Produtor lê um arquivo CSV contendo dados de transações financeiras e os converte em eventos. A implementação utiliza o RabbitMQ para a comunicação entre os componentes, utilizando filas para troca de mensagens.'}
+                    gitLink={'https://github.com/ojaomarco/amqp-project/tree/master'}
+                    link={'https://www.youtube.com/watch?v=xbkyv79uJpc&ab_channel=Jo%C3%A3oMarcos'}
+                    src={'/arch.png'}
                 />
                 <ProjectCard
                     title={'Projeto 2'}
