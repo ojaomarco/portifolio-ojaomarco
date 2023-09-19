@@ -19,21 +19,23 @@ const ProjectComp = () => {
                 <ProjectCard
                     title={'WebService SpringBoot'}
                     desc={'Foi desenvolvida uma Web API REST para gerenciar o ciclo de vida de informações de boletins de ocorrência policial. O projeto foi implementado em Java com o uso do framework Spring Boot.'}
-                    gitLink={''}
+                    gitLink={'https://github.com/ojaomarco/ws-boletim-furto-veiculo'}
                     link={''}
                     src={'/api.png'}
                 />
                 <ProjectCard
-                    title={'Projeto 2'}
-                    desc={'teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste '}
-                    gitLink={''}
+                    title={'ChatBot Telegram'}
+                    desc={'O projeto consistiu no inicio do desenvolvimento de um bot para o Telegram, o bot era um assistente pessoal e permitia ao usuário fazer algumas automatizações básicas.'}
+                    gitLink={'https://github.com/ojaomarco/projeto-bd'}
                     link={''}
+                    src={'/telegram.png'}
                 />
                 <ProjectCard
-                    title={'Projeto 2'}
-                    desc={'teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste '}
-                    gitLink={''}
-                    link={''}
+                    title={'Jogo Multiplayer'}
+                    desc={'Simples jogo multiplayer com a utilização de sockets. Foi um projeto para desenvolver habilidades em JS utilizando Sockets.io.'}
+                    gitLink={'https://github.com/ojaomarco/meu-primeiro-jogo-multiplayer'}
+                    link={'https://meu-primeiro-jogo-multiplayer-plum.vercel.app/'}
+                    src={'/jogo-multiplayer.png'}
                 />
             </section>
         </div>
