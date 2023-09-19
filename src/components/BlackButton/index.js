@@ -2,7 +2,7 @@ import './BlackButton.css'
 
 const BlackButton = (props) => {
     return(
-        <a href=''className='contact'>{props.text}</a>
+        <a href='#contact' className='contact'>{props.text}</a>
     )
 }
 

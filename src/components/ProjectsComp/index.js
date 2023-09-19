@@ -4,7 +4,7 @@ import './ProjectComp.css'
 const ProjectComp = () => {
     return (
         <div className='project'>
-            <section className='heading-sec'>
+            <section id='projects' className='heading-sec'>
                 <h1>Projetos</h1>
                 <div className='content-separator'></div>
             </section>

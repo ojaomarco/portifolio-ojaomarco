@@ -8,7 +8,7 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <div className='contact-sec'>
+        <div id='contact' className='contact-sec'>
             <div className='heading-sec'>
                 <h1>Contato</h1>
                 <div className='content-separator'></div>

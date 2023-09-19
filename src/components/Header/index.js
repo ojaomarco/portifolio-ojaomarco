@@ -11,8 +11,8 @@ const Header = () => {
         <h1>PORTFÓLIO</h1>
         <div className='frame'>
           <a href='#' className='link'>Home</a>
-          <a href='#' className='link'>Sobre</a>
-          <a href='#' className='link'>Projetos</a>
+          <a href='#about' className='link'>Sobre</a>
+          <a href='#projects' className='link'>Projetos</a>
           <BlackButton text={'Contato'} />
         </div>
         <button
