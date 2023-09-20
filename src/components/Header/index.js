@@ -7,10 +7,10 @@ const Header = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false);
   
     return (
-      <nav className={isNavExpanded ? "header expanded" : 'header'}>
+      <nav id='home' className={isNavExpanded ? "header expanded" : 'header'}>
         <h1>PORTFÓLIO</h1>
         <div className='frame'>
-          <a href='#' className='link'>Home</a>
+          <a href='#home' className='link'>Home</a>
           <a href='#about' className='link'>Sobre</a>
           <a href='#projects' className='link'>Projetos</a>
           <BlackButton text={'Contato'} />

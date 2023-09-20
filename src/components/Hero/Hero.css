@@ -20,20 +20,21 @@
     background-color: #111;
     width: 263.008px;
     height: 1px;
-    margin-bottom: 25px;
+
 }
 
 .content-text {
     display: flex;
-    padding: 10px 50px;
+    padding: 10px 25px;
     justify-content: center;
     align-items: center;
+    max-width: 600px;
 
 }
 
 .content-text p {
     color: var(--Chinese-Black, #111);
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
@@ -41,9 +42,26 @@
 
 .content-buttons {
     display: flex;
-    width: 465px;
     justify-content: center;
     align-items: center;
-    gap: 61px;
+    gap: 10px;
+    padding-bottom: 25px;
 
 }
+.hero{
+    display: flex; 
+    justify-content: center;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .hero-img{
+        display: none;
+    }
+}
+

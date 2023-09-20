@@ -1,0 +1,11 @@
+.stacklist {
+    display: flex;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+@media screen and (max-width: 768px) {
+    .stacklist img{
+        width: 32px;
+    }
+}
