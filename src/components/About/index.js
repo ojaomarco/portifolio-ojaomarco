@@ -13,12 +13,11 @@ const About = () => {
                     <div className='content-separator'></div>
                 </div>
 
-                
                 <div className='about-text'>
                     <p>
                         Olá, meu nome é João Marcos, e tenho 21 anos.
                         Desde os 15 anos, desenvolvi um grande interesse pela área de tecnologia da informação,
-                        e atualmente, tenho mais de 1 ano de experiência como desenvolvedor python e automação industrial.
+                        e atualmente, tenho mais de 1 ano de experiência como desenvolvedor Python e automação industrial.
                         <br></br>Estou cursando o 6º período do curso de Sistemas para Internet na Universidade Tecnológica Federal do Paraná (UTFPR) e
                         acumulei experiência profissional significativa no campo do desenvolvimento com a linguagem python e java.
                     </p>
